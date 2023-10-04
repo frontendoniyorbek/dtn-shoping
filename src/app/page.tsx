@@ -1,6 +1,6 @@
+import Hero from '@/components/Hero';
+import Product from '@/components/Product';
 import { ProductType } from '@/interfaces';
-import Product from './components/Product';
-import Hero from './components/Hero';
 
 export default async function Home() {
 	const res = await fetch('https://fakestoreapi.com/products');
